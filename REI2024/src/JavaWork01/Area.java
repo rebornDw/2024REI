@@ -12,12 +12,12 @@ public class Area {
 	//--------------计算面积------------------------
 	public void area1() {
 		int area = this.long_1 * this.width;
-		System.out.println("这个长方体的面积为："+area+"\n");
+		System.out.println("这个长方体的面积为："+area);
 	}
 	//--------------计算体积------------------------
 	public void  volume() {
 		int volume = this.long_1 * this.width * height;
-		System.out.println("这个长方体的体积为："+volume+"\n");
+		System.out.println("这个长方体的体积为："+volume);
 	}
 	
 }
